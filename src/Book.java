@@ -26,7 +26,6 @@ public String getAuthor (){
         return publicationYear;
     }
 
-    @Override
     public String toString() {
         return "Book{" +"authorName='" + authorName + '\'' +", publicationYear=" + publicationYear +", author='" + author + '\'' +'}';
     }

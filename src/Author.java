@@ -11,7 +11,6 @@ public class Author {
     public String getIvan (){
         return name;
     }
-
        public String toString() {
         return "Author{" +"name='" + name + '\'' +", surname='" + surname + '\'' +'}';
     }
