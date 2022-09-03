@@ -12,5 +12,6 @@ public class Main {
         System.out.println(book);
         book.setPublicationYear (LocalDate.now().getYear());
         System.out.println(book1);
+        System.out.println(book.hashCode() == book1.hashCode());
     }
     }
